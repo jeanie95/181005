@@ -1,0 +1,171 @@
+html,body,div,h1,h2,h3,h4,h5,h6,p,a,img,ol,ul,li,
+nav,footer,header,section{
+    margin: 2vw;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle;
+    
+  }
+
+
+  body {
+    background: white;
+    color:#293f50;
+    font: 300 16px/18px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+  }
+
+  h1, h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    color: #648880;
+
+  }
+
+  h3 {
+    
+    color: #D4C492;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  p{
+    color:white;
+    text-align: center;
+  }
+  
+  h1, h3, h4, h5, p {
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 48px;
+    
+  }
+  
+  h4 {
+    font-weight: bold;
+
+    font-size: 18px;
+    line-height: 20px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  h6 {
+    
+    font-size: 16px;
+    line-height: 18px;
+  }
+  pre {
+    color:#293f50;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+.flex{
+  position: relative;
+  padding:0;
+  margin:0;
+  
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.teaser img{
+  border-radius:10px;
+  padding: 5px;
+  height: 30vh;
+  width: 30vw;
+  object-fit: scale-down;
+  margin-top: 5px;
+  line-height: 150px;
+  text-align: center;
+  
+}
+
+
+.teaser{
+  background: #293f50;
+  border-radius:10px;
+  
+}
+
+.fa-linkedin{
+  color:black;
+  font-size: 5vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+   
+}
+
+.contact{
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width:50vw;
+  
+  background-image: url("../images/j.jpeg");
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-blend-mode: lighten;
+}
+
+
+.resume{
+  position:absolute;
+  margin-top: 10px;
+  
+}
+
+.nav {
+    text-align: right;
+  }
+  .nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    color: #648880;
+    text-decoration: none;
+    
+  }
+  a:hover {
+    color: #a9b2b9;
+  }
+  p a {
+    border-bottom: 1px solid #dfe2e5;
+  }
+  .primary-header a,
+  .primary-footer a {
+    color: #293f50;
+  }
+  .primary-header a:hover,
+  .primary-footer a:hover {
+    color: #648880;
+  }
+
+  .primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  }
